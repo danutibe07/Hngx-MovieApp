@@ -14,6 +14,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 /* header */
@@ -301,6 +302,21 @@ a {
   width: 25%;
 }
 
+.seemore{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px ;
+  padding-right: 20px ;
+  align-items: center;
+  justify-items: center;
+}
+
+.seemore p{
+  color: #BE123C;
+  font-size: 22px;
+}
+
 /* For desktop (4 cards in a row) */
 @media (min-width: 1024px) {
   .cards_container > * {
@@ -350,13 +366,11 @@ a {
   }
 
   .header nav .imdblogo {
-    border: 5px solid goldenrod;
     width: 100%;
     margin-right: 5%;
   }
 
   .header nav .searchbar {
-    border: 5px solid goldenrod;
     width: 100%;
     margin-right: 5%;
     margin-top: 5px;

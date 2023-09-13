@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Card from "./Card";
 
-const Cards = ({ laptop }) => {
+const Cards = ({ searchResponse }) => {
   const [movies, setMovies] = useState([]);
   const baseUrl = "https://api.themoviedb.org/3";
   const apikey = "?api_key=05826967c84a2ac26f3ed4c72f50e983";
@@ -34,11 +34,11 @@ const Cards = ({ laptop }) => {
   }, []);
 
   useEffect(() => {
-    if (laptop?.length === 0) {
+    if (searchResponse?.length === 0) {
       fetchMovies();
     }
-    setMovies(laptop);
-  }, [laptop]);
+    setMovies(searchResponse);
+  }, [searchResponse]);
 
   return movies.length == 0 ? (
     <h1 className="notfound">No Movie is available for Display</h1>
@@ -46,7 +46,7 @@ const Cards = ({ laptop }) => {
     <div className="main">
       <div className="seemore">
       <h1>Featured Movies</h1>
-      <p>see more...</p>
+      <p>see more</p>
       </div>
       <ul className="cards_container">
         {movies.map((movie) => (

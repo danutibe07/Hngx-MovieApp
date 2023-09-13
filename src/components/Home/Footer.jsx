@@ -18,7 +18,8 @@ const Footer = () => {
         <p>Privacy & policy</p>
         <p>Press room</p>
       </div>
-      <div className="author">© 2021 MovieBox by Adriana Eka Prayudha</div>
+      <div className="author">© 2023 MovieApp by Daniel</div>
+      <a href="https://github.com/danutibe07/hngx-movieapp"> The Source code</a>
     </div>
   );
 };

@@ -13,7 +13,7 @@ function HomePage() {
   return (
     <div>
       <Header searchResult={setSearchResult} />
-      <Cards laptop={result} />
+      <Cards searchResponse={result} />
       <Footer />
     </div>
   );

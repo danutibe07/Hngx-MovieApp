@@ -78,7 +78,7 @@ const Header = ({ searchResult }) => {
       axios
         .request(options)
         .then(function (response) {
-          searchResult(response.data.results);
+          searchResult(response.data.results.splice(0, 10));
         })
         .catch(function (error) {
           console.error(error);
