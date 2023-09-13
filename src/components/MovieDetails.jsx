@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import axios from "axios";
 
 function MovieDetails() {
@@ -44,13 +44,12 @@ function MovieDetails() {
         />
       <div to={moviesDetails.id}>
         <h2 data-testid="movie-title"><strong>Title :</strong> {moviesDetails.title}</h2>
-        <p data-testid ="movie-release-date"><strong>release date :</strong>{Date.parse(moviesDetails.release_date)}</p>
-        <p data-testid = "movie-runtime"><strong>runtime : </strong> {moviesDetails.runtime}</p>
-        <p data-testid = "movie-overview"><strong>overview : </strong>{moviesDetails.overview}</p>
+        <p data-testid ="movie-release-date"><strong>Release date :</strong>{Date.parse(moviesDetails.release_date)}</p>
+        <p data-testid = "movie-runtime"><strong>Runtime : </strong> {moviesDetails.runtime}</p>
+        <p data-testid = "movie-overview"><strong>Overview : </strong>{moviesDetails.overview}</p>
       </div>
     </div>
     </div>
-    
   );
 }
 

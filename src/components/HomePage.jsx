@@ -14,6 +14,7 @@ function HomePage() {
     <div>
       <Header searchResult={setSearchResult} />
       <Cards laptop={result} />
+      <Footer />
     </div>
   );
 }
