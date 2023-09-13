@@ -1,8 +1,11 @@
 <a name="readme-top"></a>
 
 <div align="center">
+
   <br/>
-  <h3><b>Movie app</b></h3>
+
+  <h3><b>Movies app</b></h3>
+
 </div>
 
 # 📗 Table of Contents
@@ -11,6 +14,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -24,23 +28,36 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# Movie app Project📖 <a name="about-project"></a>
+# Movies app📖 <a name="about-project"></a>
 
-**Movie app**
+In this project, we will be working with real live data from the TMDB API. Our task is to build a web application that allows users to discover movies, search for them by title, view movie details, and save their favorite movies.
+
+### 📌 Key Features <a name="key-features"></a>
+
+- Responsive UI with a grid layout for movie posters.
+- Movie search by title with loading indicator.
+- Detailed movie information including title, release date, and runtime.
+- Integration with the TMDB API for real-time movie data.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
 - HTML.
-- Css.
-- Jsx
+- css.
+- javaScript.
 - React
-
-### Tech Stack <a name="tech-stack"></a>
 
 ### Key Features <a name="key-features"></a>
 
 - **React front end framwork**
 - **Git-flow**
+- **Es6 module**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+ ## 🚀 Live Demo <a name="live-demo"></a>
+
+- [You can check the live demo here](https://hngx-movieapp-5tho.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,16 +116,19 @@ You can deploy this project using: github pages or any host of your choice
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Daniel**
+👤 **Akpan Daniel**
 
-- GitHub: [@githubhandle](https://github.com/danutibe07)
-- Twitter: [@twitterhandle](https://twitter.com/Danielutibe07?t=2kvKPTZQ7IGCw2FugE9xCQ&s=09)
+- GitHub: [@danutibe07](https://github.com/danutibe07)
+- Twitter: [@danutibe07](https://twitter.com/Danielutibe07?t=2kvKPTZQ7IGCw2FugE9xCQ&s=09)
+- LinkedIn: [@danutibe07](https://www.linkedin.com/in/akpan-daniel-785888215/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **will be added soon...**
+- [ ] **responsive for all devices**
+- [ ] **adding placeholders when rockets or missions are empty**
+- [ ] **Cancel reservations from the profile section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,7 +156,7 @@ I would like to thank HNGx for the oportunity to learn how to set up this projec
 
 - **how will i setup this project in local machine**
 
-  - run the following command in the terminal: git clone https://github.com/danutibe07/hngx-movieapp
+  - run the following command in the terminal: git clone https://github.com/danutibe07/React-Group-Project.git
 
 - **which code editor should i use**
 
