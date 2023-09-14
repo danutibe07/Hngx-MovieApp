@@ -284,24 +284,6 @@ a {
   gap: 10px;
 }
 
-.moviebg{
-  background-image: url(./components/Images/moviesbg.svg);
-  background-repeat: no-repeat;
-  background-size: cover; /* Use 'cover' to make the image cover the entire container */
-  background-position: center; /* Center the background image horizontally and vertically */
-}
-
-.ad{
-  background-image: url(./components/Images/adbg.svg);
-  background-repeat: no-repeat;
-  background-size: cover; 
-  background-position: center; 
-  display: flex;
-  flex-direction: column;
-  height: 30%;
-  width: 25%;
-}
-
 .seemore{
   display: flex;
   flex-direction: row;
@@ -374,5 +356,10 @@ a {
     width: 100%;
     margin-right: 5%;
     margin-top: 5px;
+  }
+
+  .details-card {
+    height: 80%;
+    width: 100%;
   }
 }
