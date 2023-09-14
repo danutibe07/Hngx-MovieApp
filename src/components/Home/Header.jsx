@@ -134,6 +134,7 @@ const Header = ({ searchResult }) => {
               international assassins' guild, and with a $14 million price tag
               on his head, he is the target of hit men and women everywhere.
             </h4>
+            <button className="watchtrailer">Watch Trailer</button>
           </div>
         </div>
         <div className="content-right"></div>

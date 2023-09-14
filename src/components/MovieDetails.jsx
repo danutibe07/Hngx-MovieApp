@@ -33,8 +33,6 @@ function MovieDetails() {
     fetchMoviesDetails(parameters.id);
   }, [parameters.id]);
 
-  const utcDate = new Date(moviesDetails.release_date);
-
   return (
     <div className="details_container">
       <div key={moviesDetails.id} className="details-card">
@@ -42,22 +40,24 @@ function MovieDetails() {
           className="card_image"
           data-testid="movie-poster"
           src={"http://image.tmdb.org/t/p/w500/" + moviesDetails.poster_path}
-          alt="things"
+          alt="movie-poster"
         />
         <div to={moviesDetails.id}>
-          <h2 data-testid="movie-title">
-            <strong>Title :</strong> {moviesDetails.title}
+          <h2>
+            <strong>Title :</strong>
+            <span data-testid="movie-title">{moviesDetails.title}</span>
           </h2>
-          <p data-testid="movie-release-date">
-            <strong>Release date : </strong>
-            {utcDate.toUTCString()}
+          <p>
+            <strong>Release date : </strong >
+            <span data-testid="movie-release-date">{Date.parse(moviesDetails.release_date)}</span>
           </p>
-          <p data-testid="movie-runtime">
-            <strong>Runtime : </strong> {moviesDetails.runtime}
+          <p>
+            <strong>Runtime : </strong>
+            <span data-testid="movie-runtime">{moviesDetails.runtime}</span> 
           </p>
-          <p data-testid="movie-overview">
-            <strong>Overview : </strong>
-            {moviesDetails.overview}
+          <p>
+            <strong>Overview : </strong >
+            <span data-testid="movie-overview">{moviesDetails.overview}</span>
           </p>
         </div>
       </div>
