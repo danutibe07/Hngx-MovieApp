@@ -29,7 +29,6 @@ function MovieDetails() {
   };
 
   useEffect(() => {
-    console.log(parameters);
     fetchMoviesDetails(parameters.id);
   }, [parameters.id]);
 
