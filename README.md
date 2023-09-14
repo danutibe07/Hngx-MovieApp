@@ -98,11 +98,11 @@ to install all the dependencies used in the project
 
 ### npm run build
 
-to build this project from the source folder using webpack
+to build this project from the source folder using webpack : <code> npm run build </code>
 
 ### npm run start
 
-in order to start a server and deploy the project localy
+in order to start a server and deploy the project localy : <code> npm run start </code>
 
 ### Run tests
 
