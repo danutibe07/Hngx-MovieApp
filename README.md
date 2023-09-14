@@ -44,12 +44,12 @@ In this project, we will be working with real live data from the TMDB API. Our t
 
 - HTML.
 - css.
-- javaScript.
+- JavaScript.
 - React
 
 ### Key Features <a name="key-features"></a>
 
-- **React front end framwork**
+- **React front-end framework**
 - **Git-flow**
 - **Es6 module**
 
@@ -63,26 +63,26 @@ In this project, we will be working with real live data from the TMDB API. Our t
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-1.install git, if you already have git installed skip this step.
+1. Install git, if you already have git installed skip this step.
 
-2.open command terminal
+2. Open the command terminal
 
-3.navigate to the directory you want remote directory to be cloned to
+3. Navigate to the directory you want the remote directory to be cloned to
 
-4.go to the github and copy the url of the repository
+4. Go to the GitHub and copy the URL of the repository
 
-5.clone the repository by typing git clone the url copied in step 4
+5. Clone the repository by typing git clone the URL copied in step 4 
 
-6.Hit enter in the keyboard
+6. Hit enter on the keyboard
 
-7.navigate to the copy of your cloned repository using cd command
+7. Navigate to the copy of your cloned repository using the cd command <code>cd hngx-movieapp</code>
 
 ### Prerequisites
 
 In order to run this project you need:
 
-- Basic knowdlenge of HTML, CSS, javascript and the code editor of your choice.
-- Basic knowlege of the computer operating system.
+- Basic knowledge of HTML, CSS, JavaScript, and the code editor of your choice.
+- Basic knowledge of the computer operating system.
 
 ### Setup <a name="setup"></a>
 
@@ -94,23 +94,23 @@ Clone this repository to your desired folder:
 
 ### npm install
 
-to install all the dependencies used in the project
+To install all the dependencies used in the project: <code>npm install</code>
 
 ### npm run build
 
-to build this project from the source folder using webpack : <code> npm run build </code>
+To build this project from the source folder using webpack: <code> npm run build </code>
 
 ### npm run start
 
-in order to start a server and deploy the project localy : <code> npm run start </code>
+In order to start a server and deploy the project locally: <code> npm run start </code>
 
 ### Run tests
 
-In order to run the tests, use the following command : <code> npm run test </code>
+In order to run the tests, use the following command: <code> npm run test </code>
 
 ### Deployment <a name="triangular_flag_on_post-deployment"></a>
 
-You can deploy this project using: github pages or any host of your choice
+You can deploy this project using: GitHub pages or any host of your choice
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,9 +126,11 @@ You can deploy this project using: github pages or any host of your choice
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **responsive for all devices**
-- [ ] **adding placeholders when rockets or missions are empty**
-- [ ] **Cancel reservations from the profile section**
+- [ ] **Mobile app version coming soon**
+- [ ] **Payment gateway to watch any movie of your choice**
+- [ ] **A favorite page coming soon**
+- [ ] **Tvshows .....**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,19 +150,19 @@ If you like this project please give it a ⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank HNGx for the oportunity to learn how to set up this project.
+I would like to thank HNGx for the opportunity to learn how to set up this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-- **how will i setup this project in local machine**
+- **How will I set this project in a local machine**
 
-  - run the following command in the terminal: git clone https://github.com/danutibe07/React-Group-Project.git
+  - Run the following command in the terminal: git clone https://github.com/danutibe07/hngx-movieapp.git
 
-- **which code editor should i use**
+- **Which code editor should I use**
 
-  - You can use any editor of your choice but i recommend vs code.
+  - You can use any editor of your choice but I recommend vs. code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
