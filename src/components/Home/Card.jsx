@@ -8,7 +8,6 @@ import { Link } from "react-router-dom";
 const Card = (prop) => {
   const [isFavorite, setIsFavorite] = useState(false);
 
-
   const handleFavoriteClick = () => {
     setIsFavorite(!isFavorite);
     const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
@@ -73,7 +72,6 @@ const Card = (prop) => {
             <p>90%</p>
           </div>
         </div>
-        <p className="category">Category</p>
       </Link>
     </div>
   );
